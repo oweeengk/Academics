@@ -1,5 +1,8 @@
 /**
-	A c/c++ source file normally starts with the include preprocessor directive. This file is "inserted” to the c/c++ source file making the functions in the included file visible/accessible to the source file. An "included” file may, of course, contain include preprocessor directives as well. The goal is to simply literally insert the contents of the included files in the c/c++ source file, replacing the preprocessor directives in the correct order. When a header file is included more than once, insert the first include and disregard the succeeding ones.
+	A c/c++ source file normally starts with the include preprocessor directive. This file is "inserted” to the c/c++ source file making the functions 
+	in the included file visible/accessible to the source file. An "included” file may, of course, contain include preprocessor directives as well. 
+	The goal is to simply literally insert the contents of the included files in the c/c++ source file, replacing the preprocessor directives 
+	in the correct order. When a header file is included more than once, insert the first include and disregard the succeeding ones.
 **/
 #include <iostream>
 #include <fstream>
